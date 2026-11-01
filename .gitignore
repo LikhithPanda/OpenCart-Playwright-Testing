@@ -9,7 +9,6 @@ allure-results/
 /playwright/.auth/
 .env
 .claude/
-.github/
 .playwright/
 custom-report/
 new/
