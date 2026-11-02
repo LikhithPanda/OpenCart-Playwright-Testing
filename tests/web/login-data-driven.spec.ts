@@ -49,7 +49,7 @@ loginData.forEach((data, index) => {
         await test.step('3) Submit the login form', async () => {
             await loginPage.clickLogin();
         });
-
+        
         await test.step('4) Validate the result', async () => {
             if (data.expected === 'success') {
                 const isMyAccount = await myAccountPage.isMyAccountPageExists();
